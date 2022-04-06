@@ -1,0 +1,93 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "FRSHSneaks Sneaker Alerts & Online Raffles"
+themesDir = "themes"
+theme = "hugo-serif-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+    
+[params]
+  # In most cases you will only want to set the google_analytics_id OR the google_tag_manager_id. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
+  google_analytics_id = ""
+  google_tag_manager_id = ""
+
+  [params.homepage]
+    show_contact_box = false # show / hide the contaxt box on the homepage
+    show_services_button = false  # show / hide the "view all services" button
+
+  [params.logo]
+    mobile = "images/logo/minilogo.webp"
+    mobile_height = "36px"
+    desktop = "images/logo/textlogo.webp"
+    desktop_height = "36px"
+    alt = "FRSHSneaks Sneaker Alerts"
+
+  [params.fonts]
+    # sets the google font link in layouts/partials/google-fonts.html
+    google_fonts = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Oswald:wght@400;700&display=swap'
+    heading = "Oswald"
+    base = "Oswald"
+
+  [params.colors]
+    primary = "#006766"
+    black = "#2f2f41"
+    white = "#ffffff"
+    white_offset = "#f6f7ff"
+    grey = "#5C5A5A"
+
+  [params.seo]
+    meta_twitter_site = "@frshsneaks"
+    meta_twitter_creator = "@frshsneaks"
+    meta_og_image = "https://pbs.twimg.com/profile_images/1272948785455521793/LmXC698u_400x400.jpg"
+
+  [params.team]
+    summary_large_truncate = 120  # How many characters to include in the summary of the team bios (large layout) before truncating
+
+  [params.footer]
+    copyright_text = '© frshsneaks.com'
+
+[menu]
+  # Main Menu
+  [[menu.main]]
+    name = "Sneaker Alerts"
+    url = "/sneaker-alerts/"
+      weight = 1
+
+  [[menu.main]]
+      name = "Raffles"
+      url = "/online-sneaker-raffles/"
+      weight = 2
+
+  [[menu.main]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 3
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Twitter - Sneaker Alerts"
+    url = "https://twitter.com/FRSHSneaks"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Twitter - Raffles"
+    url = "https://twitter.com/FRSHRaffles"
+      weight = 2
+	  
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact/"
+      weight = 3	
+
+  [[menu.footer]]
+    name = "Privacy Policy"
+    url = "/privacy/"
+      weight = 4
+
+  [[menu.footer]]
+    name = "Legal Disclosure – Impressum"
+    url = "/legal/"
+      weight = 5	  
