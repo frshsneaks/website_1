@@ -3,7 +3,10 @@ languageCode = "en-us"
 title = "FRSHSneaks Sneaker Alerts & Online Raffles"
 themesDir = "themes"
 theme = "hugo-serif-theme"
-
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 [module]
   [module.hugoVersion]
     extended = true
