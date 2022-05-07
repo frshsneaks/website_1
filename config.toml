@@ -13,7 +13,7 @@ theme = "hugo-serif-theme"
   [module.hugoVersion]
     extended = true
     min = "0.55.0"
-    
+
 [params]
   # In most cases you will only want to set the google_analytics_id OR the google_tag_manager_id. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
   google_analytics_id = ""
@@ -81,11 +81,11 @@ theme = "hugo-serif-theme"
     name = "Twitter - Raffles"
     url = "https://twitter.com/FRSHRaffles"
       weight = 2
-	  
+
   [[menu.footer]]
     name = "Contact"
     url = "/contact/"
-      weight = 3	
+      weight = 3
 
   [[menu.footer]]
     name = "Privacy Policy"
@@ -95,4 +95,24 @@ theme = "hugo-serif-theme"
   [[menu.footer]]
     name = "Legal Disclosure – Impressum"
     url = "/legal/"
-      weight = 5	  
+      weight = 5
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
+
+[services]
+  [services.twitter]
+    disableInlineCSS = true
