@@ -61,9 +61,9 @@ Gandersheimer Str. 36
 
 Germany
 
-Phone: 015750637597
+Phone: 1 5 7 5 0 6 3 7 5 9 7
 
-Email: info@frshsneaks.de
+Email: contact(at)frshsneaks.com
 
 Website: www.frshsneaks.com
 
